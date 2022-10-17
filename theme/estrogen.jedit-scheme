@@ -1,0 +1,21 @@
+# Converted from Textmate theme estrogen using Coloration v0.4.0 (http://github.com/sickill/coloration)
+
+scheme.name=estrogen
+view.fgColor=\#ffffff
+view.bgColor=\#2c2c2c
+view.caretColor=\#e78eb0
+view.selectionColor=\#e78eb0
+view.eolMarkerColor=\#000000
+view.lineHighlightColor=\#c27691
+view.style.comment1=color\:\#56cffa style\:bi
+view.style.literal1=color\:\#fd8ba8 style\:
+view.style.label=color\:\#22b1ff style\:
+view.style.digit=color\:\#ffb0ff style\:
+view.style.keyword1=color\:\#f6a9b8 style\:
+view.style.keyword2=color\:\#fdd768 style\:bi
+view.style.keyword3=color\:\#9c5cd0 style\:
+view.style.keyword4=color\:\#ffd800 style\:
+view.style.operator=color\:\#f6a9b8 style\:
+view.style.function=color\:\#fdf33c style\:
+view.style.literal3=color\:\#fd8ba8 style\:
+view.style.markup=color\:\#f92672 style\:i
