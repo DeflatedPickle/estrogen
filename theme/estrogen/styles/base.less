@@ -1,0 +1,147 @@
+@import "syntax-variables";
+
+atom-text-editor {
+  background-color: @syntax-background-color;
+  color: @syntax-text-color;
+}
+
+atom-text-editor .gutter {
+  background-color: @syntax-gutter-background-color;
+  color: @syntax-gutter-text-color;
+}
+
+atom-text-editor .gutter .line-number.cursor-line {
+  background-color: @syntax-gutter-background-color-selected;
+  color: @syntax-gutter-text-color-selected;
+}
+
+atom-text-editor .gutter .line-number.cursor-line-no-selection {
+  color: @syntax-gutter-text-color-selected;
+}
+
+atom-text-editor .wrap-guide {
+  color: @syntax-wrap-guide-color;
+}
+
+atom-text-editor .indent-guide {
+  color: @syntax-indent-guide-color;
+}
+
+atom-text-editor .invisible-character {
+  color: @syntax-invisible-character-color;
+}
+
+atom-text-editor.is-focused .cursor {
+  border-color: @syntax-cursor-color;
+}
+
+atom-text-editor.is-focused .selection .region {
+  background-color: @syntax-selection-color;
+}
+
+atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-editor.is-focused .line.cursor-line {
+  background-color: #C27691;
+}
+
+.syntax--comment {
+  font-weight: bold;
+  font-style: italic;
+  color: #56CFFA;
+}
+
+.syntax--string {
+  color: #FD8BA8;
+}
+
+.syntax--constant.syntax--numeric {
+  color: #FFB0FF;
+}
+
+.syntax--constant.syntax--language {
+  color: #9C5CD0;
+}
+
+.syntax--constant.syntax--character, .syntax--constant.syntax--other {
+  color: #22B1FF;
+}
+
+.syntax--variable {
+  color: #FFD800;
+}
+
+.syntax--keyword {
+  color: #F6A9B8;
+}
+
+.syntax--storage {
+  color: #9C5CD0;
+}
+
+.syntax--storage.syntax--type {
+  font-style: italic;
+  color: #D463A3;
+}
+
+.syntax--entity.syntax--name.syntax--class {
+  color: #FDF33C;
+}
+
+.syntax--entity.syntax--other.syntax--inherited-class {
+  font-style: italic;
+  color: #FF228C;
+}
+
+.syntax--entity.syntax--name.syntax--function {
+  color: #FDF33C;
+}
+
+.syntax--variable.syntax--parameter {
+  font-style: italic;
+  color: #FF9957;
+}
+
+.syntax--entity.syntax--name.syntax--tag {
+  font-style: italic;
+  color: #F92672;
+}
+
+.syntax--entity.syntax--other.syntax--attribute-name {
+  font-style: italic;
+  color: #A40661;
+}
+
+.syntax--support.syntax--function {
+  font-weight: bold;
+  font-style: italic;
+  color: #FDD768;
+}
+
+.syntax--support.syntax--constant {
+  font-weight: bold;
+  font-style: italic;
+  color: #C76BC5;
+}
+
+.syntax--support.syntax--type, .syntax--support.syntax--class {
+  font-weight: bold;
+  font-style: italic;
+  color: #FDD768;
+}
+
+.syntax--support.syntax--other.syntax--variable {
+  font-weight: bold;
+  font-style: italic;
+  color: #FDD768;
+}
+
+.syntax--invalid {
+  text-decoration: underline;
+  color: #F8F8F0;
+  background-color: #D70270;
+}
+
+.syntax--invalid.syntax--deprecated {
+  text-decoration: underline;
+  color: #F8F8F0;
+  background-color: #734F96;
+}
