@@ -1,0 +1,21 @@
+{
+  "name": "estrogen",
+  "displayName": "estrogen",
+  "description": "An injectable colour scheme to feminize your IDE",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.72.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "estrogen",
+        "uiTheme": "vs-dark",
+        "path": "./themes/estrogen-color-theme.json"
+      }
+    ]
+  }
+}
